@@ -1,0 +1,12 @@
+To run the program, use
+    ./out FILENAME
+
+if ./out does not exist, 
+    use
+        g++ main.cpp functions.cpp handleFile.cpp structures.cpp -o out 
+        ./out FILENAME
+    or
+        make
+        ./out FILENAME
+
+
