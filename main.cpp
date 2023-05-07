@@ -48,8 +48,6 @@ void readUserInput(std::string userInput){
             started = true;
             std::cout << "*Reading Command: in" << std::endl;
             totalFile++;
-            std::cout << "====================\n" << "\t"
-                << totalFile << "\n====================" << std::endl;
             init();
             break;
         case 'c':
@@ -107,10 +105,6 @@ int main(int argc, char const *argv[])
         started = false;
         while(getline(f, userInput)){
             readUserInput(userInput);
-            if(started){
-                printReadyList();
-                printResourceWaitList();
-            }
         }
     }
     closeOutputFile();

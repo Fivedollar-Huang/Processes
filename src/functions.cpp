@@ -373,7 +373,6 @@ void scheduler(){
 
 void addToReadyList(int pcbNum, int priorityLevel)
 {
-    std::cout <<"====" << pcbNum <<","<< priorityLevel<<std::endl;
     if(pcbNum == 0){
         return;
     }
