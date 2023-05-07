@@ -2,9 +2,9 @@
 #include <fstream>
 #include <sstream>
 
-#include "structures.hpp"
-#include "functions.hpp"
-#include "handleFile.hpp"
+#include "src/structures.hpp"
+#include "src/functions.hpp"
+#include "src/handleFile.hpp"
 
 int totalFile;
 bool started;

@@ -6,14 +6,14 @@ out: main.o structures.o functions.o handleFile.o
 main.o: main.cpp
 	g++ -c main.cpp
 
-structures.o: structures.cpp structures.hpp
-	g++ -c structures.cpp
+structures.o: src/structures.cpp src/structures.hpp
+	g++ -c src/structures.cpp
 
-functions.o: functions.cpp functions.hpp
-	g++ -c functions.cpp
+functions.o: src/functions.cpp src/functions.hpp
+	g++ -c src/functions.cpp
 
-handleFile.o: handleFile.cpp handleFile.hpp
-	g++ -c handleFile.cpp
+handleFile.o: src/handleFile.cpp src/handleFile.hpp
+	g++ -c src/handleFile.cpp
 
 clean:
 	rm *.o out

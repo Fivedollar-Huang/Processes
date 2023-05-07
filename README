@@ -1,12 +1,12 @@
 To run the program, use
-    ./out FILENAME
+    ./out test_file_name
 
 if ./out does not exist, 
     use
         g++ main.cpp functions.cpp handleFile.cpp structures.cpp -o out 
-        ./out FILENAME
+        ./out test_file_name
     or
         make
-        ./out FILENAME
+        ./out test_file_name
 
 
