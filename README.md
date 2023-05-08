@@ -1,6 +1,8 @@
 # Process and resource
 
 ## Description:
+&emsp;&emsp;This is a class project done from the ground up. However, unlike other projects listed on GitHub (except Virtual-Memory), this project was provided with detailed instructions and expected inputs/outputs.
+<br/><br/>
 &emsp;&emsp;It reads in sets of instructions to create processes with priority, destroy processes, request/release resources, and time out. Return values are the running process after each instruction.
 <br/><br/>
 &emsp;&emsp;Processes created will have a priority level, the highest priority processes must all be complete or waiting for resources before lower priority processes start to run. When a process requests resources that aren’t available, it will be placed on the waitlist and will not be in the queue to run until it receives what it needs. When resources are released, if a higher-priority process receives the resources it was waiting for, the active process will change. 
@@ -36,7 +38,7 @@ Run the program without an input file:
 *(You will need to manually input one command at a time)*
 
 
-if ./out does not exist, use: ``` make ``` and refer to above
+if ```./out``` does not exist, use: ``` make ``` and refer to above
 
 
 
